@@ -5,9 +5,9 @@ body {
 	padding: 40px;
 }
 
-h2 {
+/*h2 {
 	color: red;
-}
+}*/
 
 a {
 	color: #fcff00;
@@ -16,8 +16,15 @@ a {
 
 a:hover	{
 	color: #ff0000;
+	text-decoration: none;
 }
 
-/*a:visited {
+a:active {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+a:visited {
 	color: #747eff;
-}*/
+	text-decoration: none;
+}
