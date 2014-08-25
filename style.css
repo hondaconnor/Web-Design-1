@@ -1,0 +1,23 @@
+body {
+	background-image: url(./Images/gray_sand_@2X.png);
+	/*background-image: url(/Users/connor.wagner/Desktop/Web-Design-1/Images/gray_sand_@2x.png);*/
+	color: #2aff00;
+	padding: 40px;
+}
+
+h2 {
+	color: red;
+}
+
+a {
+	color: #fcff00;
+	text-decoration: none;
+}
+
+a:hover	{
+	color: #ff0000;
+}
+
+/*a:visited {
+	color: #747eff;
+}*/
