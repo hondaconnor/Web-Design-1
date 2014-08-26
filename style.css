@@ -49,6 +49,6 @@ a:visited {
 }
 
 #IndexLink {
-  position: absolute;
+  position: padding-bottom;
   bottom: 0;
 }
