@@ -47,3 +47,8 @@ a:visited {
 	color: #747eff;
 	text-decoration: none;
 }
+
+#IndexLink {
+  position: absolute;
+  bottom: 0;
+}
