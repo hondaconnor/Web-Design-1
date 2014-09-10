@@ -1,6 +1,6 @@
 body {
-	background-image: url(./Images/gray_sand_@2X.png);
-	/*background-image: url(./Images/fresh_snow_@2X.png);*/
+	/*background-image: url(./Images/gray_sand_@2X.png);*/
+	background-image: url(./Images/micro_carbon_@2x.png);
 	/*color: #2aff00;*/
 	/*padding: 100px;*/
 	padding-left: 100px;
@@ -8,46 +8,46 @@ body {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	font-family: Impact;
-	border: dashed gray 3px;
+	/*border: dashed gray 3px;*/
 }
 
 h1 {
 	font-size: 50px;
-	color: gray;
+	color: white;
 }
 
 h2 {
 	font-size: 35px;
-	color: black;
+	color: #cdcdcd;
 }
 
 h3 {
 	font-size: 20px;
-	color: black;
+	color: #cdcdcd;
 }
 
 h4 {
 	font-size: 15px;
-	color: black;
+	color: #cdcdcd;
 }
 
 h5 {
 	font-size: 12px;
-	color: black;
+	color: #cdcdcd;
 }
 
 h6 {
 	font-size: 10px;
-	color: black;
+	color: #cdcdcd;
 }
 
 p {
 	font-size: 15px;
-	color: black;
+	color: #cdcdcd;
 }
 
 p.outlined-par {
-	border: dashed gray 3px;
+	/*border: dashed gray 3px;*/
 	padding: 8px;
 }
 
@@ -87,17 +87,17 @@ nav li {
 ul.outlined-ul {
 	padding-top: 8px;
 	padding-bottom: 8px;
-	border: dashed gray 3px;
+	/*border: dashed gray 3px;*/
 }
 
 nav.inline-nav {
-	border: dashed gray 3px;
+	/*border: dashed gray 3px;*/
 	float: right;
 }
 
 div {
 	overflow: auto;
-	border: dashed gray 3px;
+	/*border: dashed gray 3px;*/
 	padding: 10px;
 	margin-bottom: 10px;
 }
@@ -108,7 +108,7 @@ div.image-zoom-div {
 
 img.header-logo {
 	float: left;
-	border: dashed gray 3px;
+	/*border: dashed gray 3px;*/
 	/*border-radius: 50px 50px 50px 50px;*/
 	margin-right: 8px;
 }
@@ -132,6 +132,20 @@ img.header-logo:hover {
 	-ms-transform: scale(1) translateX(400px) translateY(400px);
 	transform: scale(1) translateX(400px) translateY(400px);*/
 }
+
+/*img:hover {
+	-webkit-transition: all 5s ease-in-out;
+	-moz-transition: all 5s ease-in-out;
+	-ms-transition: all 5s ease-in-out;
+	-o-transition: all 5s ease-in-out;
+	transition: all 5s ease-in-out;
+
+	-moz-transform: scale(8) translateX(40px) translateY(45px);
+	-webkit-transform: scale(8) translateX(40px) translateY(45px);
+	-o-transform: scale(8) translateX(40px) translateY(45px);
+	-ms-transform: scale(8) translateX(40px) translateY(45px);
+	transform: scale(8) translateX(40px) translateY(45px);
+}*/
 
 #IndexLink {
   position: padding-bottom;
