@@ -108,6 +108,8 @@ div.image-zoom-div {
 
 img.header-logo {
 	float: left;
+	width: 100%;
+	height: 100%;
 	/*border: dashed gray 3px;*/
 	/*border-radius: 50px 50px 50px 50px;*/
 	margin-right: 8px;
@@ -120,11 +122,11 @@ img.header-logo:hover {
 	-o-transition: all 5s ease-in-out;
 	transition: all 5s ease-in-out;
 
-	-moz-transform: scale(8) translateX(40px) translateY(45px);
-	-webkit-transform: scale(8) translateX(40px) translateY(45px);
-	-o-transform: scale(8) translateX(40px) translateY(45px);
-	-ms-transform: scale(8) translateX(40px) translateY(45px);
-	transform: scale(8) translateX(40px) translateY(45px);
+	-moz-transform: scale(1.1) translateX(40px) translateY(45px);
+	-webkit-transform: scale(1.1) translateX(40px) translateY(45px);
+	-o-transform: scale(1.1) translateX(40px) translateY(45px);
+	-ms-transform: scale(1.1) translateX(40px) translateY(45px);
+	transform: scale(1.1) translateX(40px) translateY(45px);
 
 /*	-moz-transform: scale(1) translateX(400px) translateY(400px);
 	-webkit-transform: scale(1) translateX(400px) translateY(400px);
