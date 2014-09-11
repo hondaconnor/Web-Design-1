@@ -1,15 +1,16 @@
 body {
 	/*background-image: url(./Images/gray_sand_@2X.png);*/
-	/*background-image: url(./Images/micro_carbon_@2x.png);*/
+	background-image: url(./Images/micro_carbon_@2x.png);
 
-background: #000000;
-background: -moz-linear-gradient(top,  #000000 0%, #000000 9%, #e5e5e5 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(9%,#000000), color-stop(100%,#e5e5e5));
-background: -webkit-linear-gradient(top,  #000000 0%,#000000 9%,#e5e5e5 100%);
-background: -o-linear-gradient(top,  #000000 0%,#000000 9%,#e5e5e5 100%);
-background: -ms-linear-gradient(top,  #000000 0%,#000000 9%,#e5e5e5 100%);
-background: linear-gradient(to bottom,  #000000 0%,#000000 9%,#e5e5e5 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e5e5e5',GradientType=0 );
+	/*background: #000000;
+	background: -moz-linear-gradient(top,  #000000 0%, #000000 9%, #e5e5e5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(9%,#000000), color-stop(100%,#e5e5e5));
+	background: -webkit-linear-gradient(top,  #000000 0%,#000000 9%,#e5e5e5 100%);
+	background: -o-linear-gradient(top,  #000000 0%,#000000 9%,#e5e5e5 100%);
+	background: -ms-linear-gradient(top,  #000000 0%,#000000 9%,#e5e5e5 100%);
+	background: linear-gradient(to bottom,  #000000 0%,#000000 9%,#e5e5e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e5e5e5',GradientType=0 );
+	margin: 0 auto;*/
 
 	/*color: #2aff00;*/
 	/*padding: 100px;*/
@@ -123,20 +124,28 @@ img.header-logo {
 	/*border: dashed gray 3px;*/
 	/*border-radius: 50px 50px 50px 50px;*/
 	margin-right: 8px;
+    -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
 img.header-logo:hover {
-	-webkit-transition: all .5s ease-in-out;
+     width: 55%;
+     height: 55%;
+
+/*	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-ms-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
 
-	-moz-transform: scale(1.01) translateX(0px) translateY(0px);
-	-webkit-transform: scale(1.01) translateX(0px) translateY(0px);
-	-o-transform: scale(1.01) translateX(0px) translateY(0px);
-	-ms-transform: scale(1.01) translateX(0px) translateY(0px);
-	transform: scale(1.01) translateX(0px) translateY(0px);
+	-moz-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+	-o-transform: scale(1.01);
+	-ms-transform: scale(1.01);
+	transform: scale(1.01);*/
 
 /*	-moz-transform: scale(1) translateX(400px) translateY(400px);
 	-webkit-transform: scale(1) translateX(400px) translateY(400px);
