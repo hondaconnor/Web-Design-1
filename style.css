@@ -1,6 +1,7 @@
 body {
 	/*background-image: url(./Images/gray_sand_@2X.png);*/
 	background-image: url(./Images/micro_carbon_@2x.png);
+
 	/*color: #2aff00;*/
 	/*padding: 100px;*/
 	padding-left: 100px;
@@ -108,25 +109,25 @@ div.image-zoom-div {
 
 img.header-logo {
 	float: left;
-	width: 100%;
-	height: 100%;
+	width: 50%;
+	height: 50%;
 	/*border: dashed gray 3px;*/
 	/*border-radius: 50px 50px 50px 50px;*/
 	margin-right: 8px;
 }
 
 img.header-logo:hover {
-	-webkit-transition: all 5s ease-in-out;
-	-moz-transition: all 5s ease-in-out;
-	-ms-transition: all 5s ease-in-out;
-	-o-transition: all 5s ease-in-out;
-	transition: all 5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
 
-	-moz-transform: scale(1.1) translateX(40px) translateY(45px);
-	-webkit-transform: scale(1.1) translateX(40px) translateY(45px);
-	-o-transform: scale(1.1) translateX(40px) translateY(45px);
-	-ms-transform: scale(1.1) translateX(40px) translateY(45px);
-	transform: scale(1.1) translateX(40px) translateY(45px);
+	-moz-transform: scale(1.01) translateX(0px) translateY(0px);
+	-webkit-transform: scale(1.01) translateX(0px) translateY(0px);
+	-o-transform: scale(1.01) translateX(0px) translateY(0px);
+	-ms-transform: scale(1.01) translateX(0px) translateY(0px);
+	transform: scale(1.01) translateX(0px) translateY(0px);
 
 /*	-moz-transform: scale(1) translateX(400px) translateY(400px);
 	-webkit-transform: scale(1) translateX(400px) translateY(400px);
