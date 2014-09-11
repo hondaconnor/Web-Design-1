@@ -122,7 +122,7 @@ img.header-logo {
 	width: 50%;
 	height: 50%;
 	/*border: dashed gray 3px;*/
-	/*border-radius: 50px 50px 50px 50px;*/
+	border-radius: 15px 15px 15px 15px;
 	margin-right: 8px;
     -webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
