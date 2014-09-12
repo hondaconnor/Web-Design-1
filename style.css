@@ -122,6 +122,7 @@ nav.inline-nav {
 
 nav.top-cylon-nav {
 	float: right;
+	padding-bottom: 15px;
 }
 
 nav.bottom-cylon-nav {
