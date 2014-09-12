@@ -62,6 +62,11 @@ p.outlined-par {
 	padding: 8px;
 }
 
+p.cylon-text {
+	padding-right: 50px;
+	float: padding-left;
+}
+
 a {
 	/*color: #ffffff;*/
 	color: orange;
@@ -95,6 +100,15 @@ nav li {
 	padding-right: 20px;
 }
 
+nav li.bottom-cylon-nav-li {
+	color: red;
+}
+
+nav li.top-cylon-nav-li {
+	color: red;
+	font-size: 30px;
+}
+
 ul.outlined-ul {
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -106,6 +120,15 @@ nav.inline-nav {
 	float: right;
 }
 
+nav.top-cylon-nav {
+	float: right;
+}
+
+nav.bottom-cylon-nav {
+	float: right;
+	/*background: black;*/
+}
+
 div {
 	overflow: auto;
 	/*border: dashed gray 3px;*/
@@ -115,6 +138,15 @@ div {
 
 div.image-zoom-div {
 	/*overflow: visible;*/
+}
+
+div.cylon-div {
+	float: left;
+	width: 50%;
+}
+
+div.bottom-cylon-div {
+	background: black;
 }
 
 img.header-logo {
@@ -134,6 +166,17 @@ img.header-logo {
 img.header-logo:hover {
      width: 55%;
      height: 55%;
+}
+
+#cylon {
+	float: right;
+	/*vertical-align: text-bottom;*/
+	align-self: right;
+	padding-bottom: 50px;
+}
+
+#beware {
+	color: red;
 }
 
 #IndexLink {
