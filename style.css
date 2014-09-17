@@ -17,7 +17,7 @@ body {
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	font-family: Impact;
 	/*border: dashed gray 3px;*/
 }
@@ -52,6 +52,10 @@ h6 {
 	color: #cdcdcd;
 }
 
+li {
+	color: #cdcdcd;
+}
+
 p {
 	font-size: 15px;
 	color: #cdcdcd;
@@ -62,59 +66,37 @@ p.outlined-par {
 	padding: 8px;
 }
 
-p.cylon-text {
-	padding-right: 50px;
-	float: padding-left;
-}
-
 a {
 	/*color: #ffffff;*/
-	color: orange;
+	color: red;
 	text-decoration: none;
 }
 
 a:hover	{
-	color: #ffffff;
+	color: white;
 	text-decoration: none;
 }
 
 a:active {
-	color: #000000;
+	color: red;
 	text-decoration: none;
 }
 
 a:visited {
 	/*color: #ffffff;*/
-	color: orange;
+	color: red;
 	text-decoration: none;
 }
 
 a:visited:hover {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-a.cylon-link {
-	color: red;
-}
-
-a.cylon-link:hover {
 	color: white;
+	text-decoration: none;
 }
 
 nav li {
 	display: inline-block;
 	padding-left: 0px;
 	padding-right: 20px;
-}
-
-nav li.bottom-cylon-nav-li {
-	color: red;
-}
-
-nav li.top-cylon-nav-li {
-	color: red;
-	font-size: 30px;
 }
 
 ul.outlined-ul {
@@ -128,16 +110,6 @@ nav.inline-nav {
 	float: right;
 }
 
-nav.top-cylon-nav {
-	float: right;
-	padding-bottom: 15px;
-}
-
-nav.bottom-cylon-nav {
-	float: right;
-	/*background: black;*/
-}
-
 div {
 	overflow: auto;
 	/*border: dashed gray 3px;*/
@@ -145,17 +117,10 @@ div {
 	margin-bottom: 10px;
 }
 
+/*************LINK SITE*************/
+
 div.image-zoom-div {
 	/*overflow: visible;*/
-}
-
-div.cylon-div {
-	float: left;
-	width: 50%;
-}
-
-div.bottom-cylon-div {
-	background: black;
 }
 
 img.header-logo {
@@ -177,6 +142,49 @@ img.header-logo:hover {
      height: 55%;
 }
 
+/*************CYLON STUFF*************/
+
+p.cylon-text {
+	padding-right: 50px;
+	float: padding-left;
+}
+
+a.cylon-link {
+	color: red;
+}
+
+a.cylon-link:hover {
+	color: white;
+}
+
+nav.top-cylon-nav {
+	float: right;
+	padding-bottom: 15px;
+}
+
+nav.bottom-cylon-nav {
+	float: right;
+	/*background: black;*/
+}
+
+nav li.bottom-cylon-nav-li {
+	color: red;
+}
+
+nav li.top-cylon-nav-li {
+	color: red;
+	font-size: 30px;
+}
+
+div.cylon-div {
+	float: left;
+	width: 50%;
+}
+
+div.bottom-cylon-div {
+	background: black;
+}
+
 #cylon {
 	float: right;
 	/*vertical-align: text-bottom;*/
@@ -189,6 +197,7 @@ img.header-logo:hover {
 }
 
 #IndexLink {
-  position: padding-bottom;
+  /*position: padding-bottom;*/
+  float: bottom;
   bottom: 0;
 }
