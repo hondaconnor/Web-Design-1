@@ -94,6 +94,14 @@ a:visited:hover {
 	text-decoration: none;
 }
 
+a.cylon-link {
+	color: red;
+}
+
+a.cylon-link:hover {
+	color: white;
+}
+
 nav li {
 	display: inline-block;
 	padding-left: 0px;
