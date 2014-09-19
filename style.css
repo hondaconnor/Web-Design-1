@@ -20,6 +20,8 @@ body {
 	padding-bottom: 100px;
 	font-family: Impact;
 	/*border: dashed gray 3px;*/
+
+	margin: 0 auto;
 }
 
 h1 {
@@ -28,6 +30,7 @@ h1 {
 }
 
 h2 {
+	/*text-align: center;*/
 	font-size: 35px;
 	color: #cdcdcd;
 }
@@ -146,7 +149,9 @@ img.header-logo:hover {
 
 p.cylon-text {
 	padding-right: 50px;
-	float: padding-left;
+	width: fixed;
+	/*float: padding-left;*/
+	text-align: center;
 }
 
 a.cylon-link {
@@ -160,6 +165,8 @@ a.cylon-link:hover {
 nav.top-cylon-nav {
 	float: right;
 	padding-bottom: 15px;
+	/*width: 100%;*/
+	width: 1000px;
 }
 
 nav.bottom-cylon-nav {
@@ -169,6 +176,7 @@ nav.bottom-cylon-nav {
 
 nav li.bottom-cylon-nav-li {
 	color: red;
+	text-align: right;
 }
 
 nav li.top-cylon-nav-li {
@@ -176,13 +184,38 @@ nav li.top-cylon-nav-li {
 	font-size: 30px;
 }
 
+ul.align-nav-right {
+	text-align: right;
+}
+
 div.cylon-div {
 	float: left;
+	/*width: 50%;*/
+	/*width: 1000px;*/
 	width: 50%;
+	text-align: center;
 }
 
 div.bottom-cylon-div {
 	background: black;
+}
+
+/*img.cylon-header {
+	float: bottom;
+	position: top;
+}*/
+
+.page-centered-x {
+	position: static;
+	top: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#cylon-header {
+	width: 100%;
 }
 
 #cylon {
@@ -190,10 +223,13 @@ div.bottom-cylon-div {
 	/*vertical-align: text-bottom;*/
 	align-self: right;
 	padding-bottom: 50px;
+	/*width: 600px;*/
+	width: 100%;
 }
 
 #beware {
 	color: red;
+	text-align: right;
 }
 
 #IndexLink {
