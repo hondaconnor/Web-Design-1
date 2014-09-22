@@ -5,8 +5,8 @@ html {
 
 body {
 	background-color: gray;
-	height: 100%;
-	width: 100%;
+	height: 98%;
+	width: 98%;
 }
 
 div.yellowdiv {
@@ -20,7 +20,7 @@ div.yellowdiv {
 div.whitediv {
 	background-color: white;
 	margin: 1%;
-	width: 30%;
+	width: 31%;
 	height: 45%;
 	float: left;
 }
@@ -28,7 +28,7 @@ div.whitediv {
 div.graydiv {
 	background-color: gray;
 	margin: 1%;
-	width: 30%;
+	width: 31%;
 	height: 45%;
 	float: left;
 }
@@ -36,7 +36,7 @@ div.graydiv {
 div.bluediv {
 	background-color: blue;
 	margin: 1%;
-	width: 30%;
+	width: 31%;
 	height: 45%;
 	float: left;
 }
