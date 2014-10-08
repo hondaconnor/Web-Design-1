@@ -1,0 +1,31 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+div.topRectDiv {
+  width: 100%;
+  height: 55%;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #ff4744;
+}
+
+div.imagesDiv {
+
+}
+
+div.footerRectDiv {
+  width: 100%;
+  height: 25%;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #ff4744;
+}
