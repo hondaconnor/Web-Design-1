@@ -16,6 +16,11 @@ div.headerDiv {
   background-color: #ffffff;
 }
 
+nav ul {
+  text-decoration: none;
+  color: #0cb240;
+}
+
 div.topRectDiv {
   width: 100%;
   height: 55%;
