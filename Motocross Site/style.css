@@ -16,9 +16,17 @@ div.headerDiv {
   background-color: #ffffff;
 }
 
-nav ul {
-  text-decoration: none;
+nav ul{
+  display: inline-block;
+  /*text-decoration: none;*/
   color: #0cb240;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 div.topRectDiv {
@@ -59,4 +67,36 @@ div.footerDiv {
   width: 100%;
   height: 6.5%;
   background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #0cb240;
+}
+
+.centered {
+  text-align: center;
+}
+
+#welcome {
+  font-size: 30px;
+  padding-top: 10px;
+  color: #0cb240;
+}
+
+#title {
+  font-size: 50px;
+  padding-top: 10px;
+  color: #0cb240;
+}
+
+#readMore {
+  margin-left: 46.5%;
+  width: 10%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid #0cb240 3px;
+  color: #0cb240;
 }
